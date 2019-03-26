@@ -33,8 +33,8 @@ public class FlashElement {
 		WebElement username = driver.findElement(By.name("username"));
 		WebElement password = driver.findElement(By.name("password"));
 
-		username.sendKeys("....");
-		password.sendKeys("....");
+		username.sendKeys("sviatka");
+		password.sendKeys("Gnhg765c");
 
 		// driver.findElement(By.xpath("//input[contains(@type,'submit')]")).submit();
 
@@ -139,5 +139,8 @@ public class FlashElement {
 	public static void scrollIntoView (WebElement element, WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true)", element);
+		System.out.println("Execution is Done. Checking commit in the Git");
 	}
+	
+	
 }
