@@ -140,6 +140,7 @@ public class FlashElement {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true)", element);
 		System.out.println("Execution is Done. Checking commit in the Git");
+		System.out.println("Checking second commit");
 	}
 	
 	
