@@ -33,8 +33,8 @@ public class FlashElement {
 		WebElement username = driver.findElement(By.name("username"));
 		WebElement password = driver.findElement(By.name("password"));
 
-		username.sendKeys("sviatka");
-		password.sendKeys("Gnhg765c");
+		username.sendKeys("....");
+		password.sendKeys("....");
 
 		// driver.findElement(By.xpath("//input[contains(@type,'submit')]")).submit();
 
@@ -141,7 +141,7 @@ public class FlashElement {
 		js.executeScript("arguments[0].scrollIntoView(true)", element);
 		System.out.println("Execution is Done. Checking commit in the Git");
 		System.out.println("Checking second commit");
+		System.out.println("Trying to revert the commit");
+
 	}
-	
-	
 }
